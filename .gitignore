@@ -1,0 +1,51 @@
+# General
+*.log
+*.tmp
+*.swp
+*.bak
+*.swo
+
+# CMake build files
+/build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.lib
+
+# Backup files
+*~
+
+# IDE and editor-specific files
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# STM32CubeIDE files
+*.launch
+*.uvoptx
+*.uvprojx
+
+# STM32CubeMX files
+*.ioc.*
+
+# Binary dumps
+*.bin
+*.elf
+*.hex
+*.map
+
+# Debugger files
+.gdbinit
+.gdb
